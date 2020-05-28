@@ -87,6 +87,23 @@ Insert useful description here
 [angular]: https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines
 [closing-words]: https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword
 
+## Code
+
+Since this is a generic contributing file, it's hard to write relevant code
+guidelines, but here are a few:
+
+- Try to add enough comments that someone can easily understand the basic flow
+  without having to refer to function definitions often.
+  - Even if the comments take up more lines than the code.
+- Split things up into multiple functions or files to stop them getting too long.
+
+If I want to enforce specific formatting, I'll set up auto-beautification to run on
+pushes to `master`. If that's not possible for the language, it may instead be checked
+through CodeClimate (which appears as review comments on pull requests for you to
+resolve), or a GitHub Actions workflow.
+
+In general just keep things readable.
+
 
 # Collaboration Guidelines
 
