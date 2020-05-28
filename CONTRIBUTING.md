@@ -93,6 +93,15 @@ Insert useful description here
 *If you are not added as a collaborator on any of my repositories then you
 may stop reading now.*
 
+## Issues & Pull Requests
+
+In addition to the section above:
+
+- Everything should organised with labels, if an appropriate label exists.
+- No "wontfix". An bug might never get fixed, but leave it open anyway.
+  Closing these things just causes duplicates.
+- No closing stale issues either, unless they are a question.
+
 ## Merging Pull Requests
 
 I prefer the use of squashing to merge PRs. Here's why:
