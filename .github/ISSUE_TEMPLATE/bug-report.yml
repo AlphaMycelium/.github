@@ -1,0 +1,25 @@
+name: Bug Report
+description: Something isn't working properly.
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Current behaviour
+      description: What happens that is incorrect?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Anything else that may be useful, such as logs or configuration files.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: If you have found multiple bugs, please split them into separate issues.

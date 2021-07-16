@@ -1,0 +1,19 @@
+name: Documentation
+description: I found an error or omission in the documentation.
+labels: [documentation]
+body:
+  - type: input
+    attributes:
+      label: Page
+      description: If this issue is related to a specific page of the documentation, link to it here.
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Description
+      description: What needs to be added or changed?
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: If you have multiple requests, please split them into separate issues.

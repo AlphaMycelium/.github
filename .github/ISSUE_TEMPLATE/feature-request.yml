@@ -1,0 +1,25 @@
+name: Feature Request
+description: Suggest a new idea.
+labels: [feature]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: What would you like to be added?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Advantages
+      description: Why are you requesting this feature? What could it be used for?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Implementation details
+      description: If you have any suggestions for how this could be implemented in code, write them here.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: If you have multiple requests, please split them into separate issues.
